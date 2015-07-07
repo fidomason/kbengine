@@ -2,15 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{334d3f4b-8a02-4694-90b8-7fff24e64f7b}</UniqueIdentifier>
+      <UniqueIdentifier>{7d883616-56c2-4505-8dd9-ba425e22b20a}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{278c362e-fd4b-408f-886b-65dc66cc8e20}</UniqueIdentifier>
+      <UniqueIdentifier>{2c12ceff-cc69-45e0-baa5-c2b3bb595b12}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{8ad4d64c-16c6-4821-9e36-d5feca81bf44}</UniqueIdentifier>
+      <UniqueIdentifier>{4b7947d9-939d-4a3a-8b90-1b4896397e6c}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
   </ItemGroup>
@@ -459,6 +459,11 @@
     <ClCompile Include="..\src\main\cpp\zipcompressaction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\main\resources\log4cxx.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\main\include\log4cxx\helpers\absolutetimedateformat.h">
@@ -990,9 +995,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\src\main\include\log4cxx\rolling\zipcompressaction.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\main\resources\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

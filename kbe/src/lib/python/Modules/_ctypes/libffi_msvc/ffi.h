@@ -62,7 +62,7 @@ extern "C" {
 
 #include <ffitarget.h>
 
-#ifndef LIBFFI_ASM
+#ifndef LIBFFI_ASM 
 
 #include <stddef.h>
 #include <limits.h>

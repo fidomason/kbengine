@@ -1,20 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xml", "..\..\apr-util\xml\expat\lib\xml.vcproj", "{01B210A3-3E0C-4929-8DA5-371F6CF8A322}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "log4cxxxml", "..\..\apr-util\xml\expat\lib\xml.vcxproj", "{01B210A3-3E0C-4929-8DA5-371F6CF8A322}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aprutil", "..\..\apr-util\aprutil.vcproj", "{7CDBBFFF-3B84-413E-BA1A-47CB8D454A46}"
-	ProjectSection(ProjectDependencies) = postProject
-		{01B210A3-3E0C-4929-8DA5-371F6CF8A322} = {01B210A3-3E0C-4929-8DA5-371F6CF8A322}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aprutil", "..\..\apr-util\aprutil.vcxproj", "{7CDBBFFF-3B84-413E-BA1A-47CB8D454A46}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "log4cxx", "log4cxx.vcproj", "{561FA9F7-14D0-4D94-822C-AAE9B08AACEF}"
-	ProjectSection(ProjectDependencies) = postProject
-		{01B210A3-3E0C-4929-8DA5-371F6CF8A322} = {01B210A3-3E0C-4929-8DA5-371F6CF8A322}
-		{7CDBBFFF-3B84-413E-BA1A-47CB8D454A46} = {7CDBBFFF-3B84-413E-BA1A-47CB8D454A46}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "log4cxx", "log4cxx.vcxproj", "{561FA9F7-14D0-4D94-822C-AAE9B08AACEF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "apr", "..\..\apr\apr.vcproj", "{C6C836E6-2899-458A-90BA-184192342D30}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "apr", "..\..\apr\apr.vcxproj", "{C6C836E6-2899-458A-90BA-184192342D30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
